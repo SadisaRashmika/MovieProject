@@ -1,11 +1,13 @@
-# Backend
+# Node modules
 backend/node_modules/
-backend/.env
-
-# Frontend
 frontend/node_modules/
+
+# Build folders
 frontend/build/
+
+# Env files
+backend/.env
 frontend/.env
 
-# Optional general
-.DS_Store
+# Logs
+*.log
