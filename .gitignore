@@ -1,16 +1,31 @@
-# Node modules
+# Node dependencies
 node_modules/
 
 # Environment variables
-.env
-
-# Build folders
-frontend/build/
-backend/build/
+*.env
 
 # Logs
-*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Build outputs
+/frontend/build/
+/backend/build/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# React specific
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Misc
+/dist/
